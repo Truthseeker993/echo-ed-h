@@ -32,7 +32,11 @@ body {
     font-size: 30px;
     letter-spacing: 2px;
 }
-
+.logo-area img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
 .navbar {
     display: flex;
     gap: 35px;
