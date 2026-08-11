@@ -111,12 +111,12 @@ body {
 }
 
 .hero-image {
-    width: 50%;
+    width: 45%;
     height: 520px;
-
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
+    padding-right: 30px;
 }
 
 .hero-image video {
