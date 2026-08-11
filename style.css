@@ -119,9 +119,9 @@ body {
     justify-content: center;
 }
 
-.hero-image img {
-    max-width: 85%;
-    max-height: 90%;
+.hero-image video {
+    max-width: 300px;
+    max-height: 300px;
 
     object-fit: contain;
 }
