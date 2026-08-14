@@ -212,6 +212,31 @@
         © 2026 echo.ed.H. All Rights Reserved.
     </div>
 
+<script>
+const slider = document.querySelector(".product-slider");
+const cards = document.querySelectorAll(".product-card");
+const leftArrow = document.querySelector(".slider-arrow.left");
+const rightArrow = document.querySelector(".slider-arrow.right");
 
+let current = 0;
+
+function showCard(index) {
+    cards.forEach((card, i) => {
+        card.style.display = i === index ? "block" : "none";
+    });
+}
+
+showCard(current);
+
+rightArrow.addEventListener("click", () => {
+    current = (current + 1) % cards.length;
+    showCard(current);
+});
+
+leftArrow.addEventListener("click", () => {
+    current = (current - 1 + cards.length) % cards.length;
+    showCard(current);
+});
+</script>
 </body>
 </html>
