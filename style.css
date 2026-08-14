@@ -346,7 +346,39 @@ footer {
     color: #e6a928;
 }
 
+/* CENTER FOOTER CONTENT */
 
+.footer-brand {
+    text-align: center;
+}
+
+.footer-brand p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.footer-links {
+    align-items: center;
+    text-align: center;
+}
+
+.footer-links h3,
+.footer-links a {
+    text-align: center;
+}
+
+.footer-care {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-care h3,
+.footer-care a {
+    text-align: center;
+}
 /* COPYRIGHT */
 
 .copyright {
