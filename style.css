@@ -119,8 +119,8 @@ body {
     height: 520px;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    padding-right: 80px;
+   justify-content: center;
+    padding-right: 0px;
 }
 
 .hero-image video {
