@@ -115,16 +115,16 @@ body {
 }
 
 .hero-image {
-    width: 45%;
+    width: 60%;
     height: 520px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding-right: 30px;
+    padding-right: 15px;
 }
 
 .hero-image video {
-    max-width: 400px;
+    max-width: 500px;
     max-height: 300px;
 
     object-fit: contain;
