@@ -120,7 +120,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding-right: 15px;
+    padding-right: 80px;
 }
 
 .hero-image video {
