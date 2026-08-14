@@ -124,8 +124,8 @@ body {
 }
 
 .hero-image video {
-    max-width: 500px;
-    max-height: 300px;
+    max-width: 650px;
+    max-height: 400px;
 
     object-fit: contain;
 }
